@@ -13,6 +13,8 @@
 		52F0698027F0563B002B6315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F0697E27F0563B002B6315 /* Main.storyboard */; };
 		52F0698227F0563C002B6315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698127F0563C002B6315 /* Assets.xcassets */; };
 		52F0698527F0563C002B6315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698327F0563C002B6315 /* LaunchScreen.storyboard */; };
+		52F0698F27F066DA002B6315 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698D27F066D9002B6315 /* Ubuntu-Regular.ttf */; };
+		52F0699027F066DA002B6315 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698E27F066DA002B6315 /* Ubuntu-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		52F0698127F0563C002B6315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F0698427F0563C002B6315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F0698627F0563C002B6315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F0698D27F066D9002B6315 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		52F0698E27F066DA002B6315 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		52F0697727F0563B002B6315 /* Words */ = {
 			isa = PBXGroup;
 			children = (
+				52F0698C27F066A7002B6315 /* Fonts */,
 				52F0697827F0563B002B6315 /* AppDelegate.swift */,
 				52F0697A27F0563B002B6315 /* SceneDelegate.swift */,
 				52F0697C27F0563B002B6315 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				52F0698627F0563C002B6315 /* Info.plist */,
 			);
 			path = Words;
+			sourceTree = "<group>";
+		};
+		52F0698C27F066A7002B6315 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52F0698E27F066DA002B6315 /* Ubuntu-Bold.ttf */,
+				52F0698D27F066D9002B6315 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F0699027F066DA002B6315 /* Ubuntu-Bold.ttf in Resources */,
+				52F0698F27F066DA002B6315 /* Ubuntu-Regular.ttf in Resources */,
 				52F0698527F0563C002B6315 /* LaunchScreen.storyboard in Resources */,
 				52F0698227F0563C002B6315 /* Assets.xcassets in Resources */,
 				52F0698027F0563B002B6315 /* Main.storyboard in Resources */,
@@ -293,7 +309,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +320,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -321,7 +337,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
