@@ -15,6 +15,8 @@
 		52F0698527F0563C002B6315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698327F0563C002B6315 /* LaunchScreen.storyboard */; };
 		52F0698F27F066DA002B6315 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698D27F066D9002B6315 /* Ubuntu-Regular.ttf */; };
 		52F0699027F066DA002B6315 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52F0698E27F066DA002B6315 /* Ubuntu-Bold.ttf */; };
+		52F0699327F0ABCB002B6315 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52F0699127F0ABCA002B6315 /* level1.txt */; };
+		52F0699427F0ABCB002B6315 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52F0699227F0ABCB002B6315 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		52F0698627F0563C002B6315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F0698D27F066D9002B6315 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		52F0698E27F066DA002B6315 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		52F0699127F0ABCA002B6315 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		52F0699227F0ABCB002B6315 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				52F0698127F0563C002B6315 /* Assets.xcassets */,
 				52F0698327F0563C002B6315 /* LaunchScreen.storyboard */,
 				52F0698627F0563C002B6315 /* Info.plist */,
+				52F0699127F0ABCA002B6315 /* level1.txt */,
+				52F0699227F0ABCB002B6315 /* level2.txt */,
 			);
 			path = Words;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F0699027F066DA002B6315 /* Ubuntu-Bold.ttf in Resources */,
+				52F0699427F0ABCB002B6315 /* level2.txt in Resources */,
 				52F0698F27F066DA002B6315 /* Ubuntu-Regular.ttf in Resources */,
 				52F0698527F0563C002B6315 /* LaunchScreen.storyboard in Resources */,
+				52F0699327F0ABCB002B6315 /* level1.txt in Resources */,
 				52F0698227F0563C002B6315 /* Assets.xcassets in Resources */,
 				52F0698027F0563B002B6315 /* Main.storyboard in Resources */,
 			);
